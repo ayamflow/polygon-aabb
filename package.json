@@ -1,0 +1,34 @@
+{
+  "name": "polygon-aabb",
+  "version": "1.0.0",
+  "description": "Get the Axis Aligned Bounding Box for a set of points (convex polygon).",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "tape ./test | faucet"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ayamflow/polygon-aabb"
+  },
+  "keywords": [
+    "polygon",
+    "aabb",
+    "bounding",
+    "box",
+    "axis",
+    "aligned"
+  ],
+  "author": "= <=>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ayamflow/polygon-aabb/issues"
+  },
+  "homepage": "https://github.com/ayamflow/polygon-aabb",
+  "devDependencies": {
+    "faucet": "0.0.1",
+    "tape": "^3.5.0"
+  }
+}
